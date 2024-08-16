@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/complex_datastructures.dir/library.cpp.o"
-  "libcomplex_datastructures.dylib"
+  "CMakeFiles/complex_datastructures.dir/Trei.cpp.o"
+  "CMakeFiles/complex_datastructures.dir/Trei.cpp.o.d"
+  "libcomplex_datastructures.a"
   "libcomplex_datastructures.pdb"
 )
 
