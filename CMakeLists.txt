@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 
 
-#project(complex_datastructures VERSION 1.0)
+project(complex_datastructures VERSION 1.0)
 
 set(CMAKE_CXX_STANDARD 23)
 
