@@ -5,9 +5,17 @@
 #include <gtest/gtest.h>
 #include <iostream>
 
+TEST(complex_datastructure,test1){
+    ASSERT_EQ(2,2);
+}
 
-int main(){
+TEST(complex_datastructure,test2){
+ASSERT_EQ(2,2);
+}
 
+int main(int argc,char** argv ){
     std::cout << "hello world" << std::endl;
-    return 0;
+
+    ::testing::InitGoogleTest(&argc,argv);
+    return RUN_ALL_TESTS();
 }

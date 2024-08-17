@@ -18,3 +18,5 @@ target_link_libraries(complex_datastuctures_test
     complex_datastructures
 )
 
+add_test(complex_datasturctures_gtest complex_datastuctures_test)
+
